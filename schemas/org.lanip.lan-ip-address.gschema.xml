@@ -1,0 +1,10 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.lan-ip-address" path="/org/gnome/shell/extensions/lan-ip-address/">
+    <key name="ip-interface" type="s">
+      <default>'wlan0'</default>
+      <summary>Variable for interface.</summary>
+      <description>Using for loading a default interface index.</description>
+    </key>
+    <!-- Add more keys as needed -->
+  </schema>
+</schemalist>
