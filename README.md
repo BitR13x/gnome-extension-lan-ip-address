@@ -1,6 +1,6 @@
 # gnome-extension-lan-ip-address
 
-This is the code behind the GNOME Shell Extension called [**LAN IP Address**](https://extensions.gnome.org/extension/1762/lan-ip-address/), available in the GNOME Shell Extension store at https://extensions.gnome.org/extension/1762/lan-ip-address/
+This is the code behind the GNOME Shell Extension called [**LAN IP Address**](https://extensions.gnome.org/extension/1762/lan-ip-address/).
 
 ![icon showing 192.168.](icon.png)
 
