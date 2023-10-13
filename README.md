@@ -33,6 +33,10 @@ glib-compile-schemas ./schemas/
 
 A shell reload is required `Alt+F2` r Enter and extension has to be enabled with gnome-tweak-tool.
 
+## Usage
+
+Left-Clicking on the display interface is going to switch the interface to another, Right clicking is going to copy the ip address.
+
 ## Scope
 
 **What if you want to see your WAN IP address, too?** This is out of scope for this simple extension. This extension by design only shows your internal LAN IP address, just as the name suggests. It is designed for developers and other engineers who only need to see their LAN address in a convenient place, and with total privacy (no calls to the Internet). If you actually want your WAN IP address or IPv6 addresses, check out this extension instead: [All IP Addresses](https://extensions.gnome.org/extension/3994/all-ip-addresses/)
