@@ -30,7 +30,10 @@ cd ~/.local/share/gnome-shell/extensions/lan-ip-address@mrhuber.com
 
 glib-compile-schemas ./schemas/
 ```
-
+Requirements:
+```sh
+sudo apt install net-tools
+```
 A shell reload is required `Alt+F2` r Enter and extension has to be enabled with gnome-tweak-tool.
 
 ## Usage
