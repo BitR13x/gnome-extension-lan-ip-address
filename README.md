@@ -24,9 +24,9 @@ ifconfig wlan0
 
 ```sh
 git clone https://github.com/BitR13x/gnome-extension-lan-ip-address.git \
-~/.local/share/gnome-shell/extensions/gnome-extension-lan-ip-address.git
+~/.local/share/gnome-shell/extensions/lan-ip-address@mrhuber.com
 
-cd ~/.local/share/gnome-shell/extensions/gnome-extension-lan-ip-address.git
+cd ~/.local/share/gnome-shell/extensions/lan-ip-address@mrhuber.com
 
 glib-compile-schemas ./schemas/
 ```
