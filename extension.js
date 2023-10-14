@@ -122,7 +122,7 @@ var LanIPAddressIndicator = class LanIPAddressIndicator extends PanelMenu.Button
   }
 
   _updateLabel() {
-    const refreshTime = 5; // in seconds
+    const refreshTime = 10; // in seconds
 
     if (this._timeout) {
       Mainloop.source_remove(this._timeout);
@@ -136,6 +136,8 @@ var LanIPAddressIndicator = class LanIPAddressIndicator extends PanelMenu.Button
     this.buttonText.set_text(
       _get_lan_ip(this.interfaces[this.interface_index])
     );
+
+    this.interfaces = _get_interfaces();
   }
 
   _onClicked(actor, event) {
